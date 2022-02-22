@@ -35,8 +35,6 @@ search_result_one = re.search(r"", INSERTSEARCHSTRINGHERE)
     
     
 # Conditional Example... write if statement! # If basketball is in the string...
-'''if re.search(r"basketball", search_string_one):
-    print("True!")'''
 
 
 
@@ -75,12 +73,19 @@ ATTTAGATAAAGTAATACAAGAAAAAATAATGAACTTATTATCCAAAAAAATATTGTCGAAAGAAATTAA
 AAAAGATAGAATACTAAAAGTAAGAACAAGAAAAAACAAATTTTTTCTTACATATTAA'''
 
 # Indexes of all polyA Tracts in gene
-'''for polyA in re.finditer(r"AAA+?(?=T|G|C)", search_gene):
-    print(polyA.group() + " found: " + str(polyA.start()) + "-" + str(polyA.end()))'''
+###
+
+
+
+###
+
 
 # List of all polyA Tracts in gene
+###
 
-#polyAList = re.findall(r"", search_gene)
+
+###
+
 
 
 
@@ -94,6 +99,11 @@ go_term_string = go_term_file.read()
 
 
 
+
+
+
+
+go_term_file.close()
 
 
 
